@@ -4,7 +4,7 @@ import { assert } from 'chai'
 describe('测试 User 模块 Api', () => {
   it('测试登录接口', async () => {
     const res = await UserService.login({
-      userName: 'nihao',
+      username: 'nihao',
       password: 'hahah'
     })
     console.log(res)

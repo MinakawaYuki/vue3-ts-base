@@ -6,5 +6,6 @@ module.exports = {
   endOfLine: 'lf',
   printWidth: 999,
   proseWrap: 'never',
-  arrowParens:'avoid'
+  arrowParens:'avoid',
+  "endOfLine": "auto" 
 }

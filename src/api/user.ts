@@ -12,12 +12,10 @@ interface HttpParams {
 
 /**
  * @interface loginParams -登录参数
- * @property {string} grant_type -授权类型
  * @property {string} email -邮箱
  * @property {string} password -用户密码
  */
 interface LoginParams {
-  grant_type: string
   username: string
   password: string
 }

@@ -20,7 +20,9 @@ module.exports = {
     'vue/valid-v-slot': 'off',
     'no-debugger': 'off',
     'vue/experimental-script-setup-vars': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off'
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'camelcase':'off',
+    '@typescript-eslint/camelcase':'off'
   },
   extends: [
     'plugin:vue/vue3-essential',
